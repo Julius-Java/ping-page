@@ -7,7 +7,7 @@ const Form = (props) => {
         <form onSubmit={handleSubmitFunc} id="form">
             <div className="input">
                 <input
-                    role="Email Input"
+                    aria-label="Email Input"
                     value={value}
                     onChange={handleInputFunc}
                     type="text"
