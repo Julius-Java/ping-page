@@ -4,7 +4,7 @@ const Form = (props) => {
     const {handleInputFunc, handleSubmitFunc, onError, value} = props
 
     return (
-        <form onSubmit={handleSubmitFunc} id="form">
+        <form role="form" onSubmit={handleSubmitFunc} id="form">
             <div className="input">
                 <input
                     aria-label="Email Input"
