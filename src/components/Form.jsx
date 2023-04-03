@@ -1,3 +1,4 @@
+import React from "react";
 const Form = (props) => {
 
     const {handleInputFunc, handleSubmitFunc, onError, value} = props

@@ -1,3 +1,4 @@
+import React from "react";
 import MainImg from "../assets/illustration-dashboard.png"
 
 

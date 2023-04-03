@@ -1,3 +1,4 @@
+import React from "react";
 import { useState } from "react";
 import Logo from "../assets/logo.svg"
 import Form from "./Form"
