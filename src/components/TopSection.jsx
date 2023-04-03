@@ -33,7 +33,7 @@ const Top = () => {
     return (
         <>
             <section className="container top">
-                <div className="logo">
+                <div role="logo" className="logo">
                     <img src={Logo} alt="Ping" />
                 </div>
                 <h1>We are launching <span className="soon">soon!</span></h1>

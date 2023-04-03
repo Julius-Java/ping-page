@@ -10,17 +10,17 @@ const Footer = () => {
     return (
         <footer className="container footer">
             <div className="icon-container">
-                <a href="#">
+                <a aria-label='Facebook' href="#">
                     <div className="icon">
                         {facebookIcon}
                     </div>
                 </a>
-                <a href="#">
+                <a aria-label='Twitter' href="#">
                     <div className="icon">
                         {twitterIcon}
                     </div>
                 </a>
-                <a href="#">
+                <a aria-label='Instagram' href="#">
                     <div className="icon">
                         {igIcon}
                     </div>
