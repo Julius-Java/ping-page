@@ -3,7 +3,7 @@ import { useState } from "react";
 import Logo from "../assets/logo.svg"
 import Form from "./Form"
 
-const Top = () => {
+const Top = ({showModalFunc}) => {
     const [emailInput, setEmailInput] = useState("");
 
     const validateEmail =  (emailValue) => {
@@ -19,7 +19,7 @@ const Top = () => {
                 e.target.classList.remove("email-error")
             }, 5000)
         } else {
-            alert("We'll reach out soon!")
+            showModalFunc()
         }
     }
 

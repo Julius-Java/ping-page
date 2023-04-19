@@ -25,6 +25,7 @@ body {
   background-color: white;
   font-size: 1.25rem;
   font-family: 'Libre Franklin', sans-serif;
+  position: relative;
 }
 
 img {
@@ -170,6 +171,36 @@ p {
   font-size: 13px;
   text-align: center;
   color: var(--neutral-gray);
+}
+
+.overlay {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.4);
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.submitModal {
+  background-color: white;
+  max-width: 450px;
+  width: 80%;
+  border-radius: 15px;
+  text-align: center;
+  font-size: 18px;
+  padding: 1em 0;
+}
+
+.submitModal p {
+  font-weight: 700;
+}
+
+.gif {
+  width: 120px;
 }
 
 @media (min-width: 700px) {
